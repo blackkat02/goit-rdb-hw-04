@@ -14,8 +14,8 @@ INSERT INTO Genres (genre_name) VALUES
 INSERT INTO Books (title, publication_year, author_id, genre_id) VALUES
 ('Harry Potter and the Philosopher''s Stone', '1997', 1, 1),
 ('Harry Potter and the Chamber of Secrets', '1998', 1, 1),
-('A Study in Scarlet', '1887', 2, 2), -- Тепер це буде працювати з VARCHAR
-('The Adventures of Sherlock Holmes', '1892', 2, 2); -- Тепер це буде працювати з VARCHAR
+('A Study in Scarlet', '1887', 2, 2), 
+('The Adventures of Sherlock Holmes', '1892', 2, 2);
 
 INSERT INTO Users (username, email) VALUES
 ('S. Holmes', 's.holmes@example.com'),

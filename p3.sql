@@ -29,4 +29,3 @@ INNER JOIN
     categories cat ON p.category_id = cat.id
 INNER JOIN
     suppliers sup ON p.supplier_id = sup.id
--- LIMIT 10; 
